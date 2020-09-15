@@ -16,7 +16,8 @@
     height: 100px;
     background-color: #07A4F8;
     position: fixed;
-     border: solid;
+    border: solid;
+    border-radius: 20px 40px 20px 40px;
     border-color:#D08B8B;
     border-width: 10px;
   }
