@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1103.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+	<script type="text/javascript" src="js/scroll_menu.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <title>De'AKher</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+
+    <!--top-->
+        <div id="header">
+
+            <div id="site-title"><a href="#container"><img src="image/LOGO.png"></a></div>
+
+            
+        </div>
+        <div id ="ui01"><a href="#container"><img src ="image/upbutton.png"></a>
+        </div>
+
+    <!--middle-->    
+        <div id="main">
+            <div id="main-left">
+        <div class="section0">
+            <br>
+            <br>
+            <br>
+             <div class="Toward"><img src="image/Toward.jpg"></div>
+             
+            <div id="button01"><a href="#main2">
+                <img src="image/button01.png" 
+                onmouseover="this.src='image/button02.png' "onmouseout="this.src='image/button01.png'"> </a>
+                </div>
+            
+            
+        </div>
+
+
+        
+          
+        
+        </div>
+            <div id="main-right">
+                <video width="920px" height="620px" src="image/fork.mp4" controls autoplay muted></video>
+
+                
+            </div>
+        
+        </div>
+        <div id = "main2">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div id="work1">
+                    <a href="#work01"><img src="image/박윤호s.png" alt="박윤호"></a>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="work2">
+                    <a href="#work02"><img src="image/전도현s.png" alt="전도현"></a>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="work3">
+                    <a href="#work03"><img src="image/정지연s.png" alt="정지연"></a>
+                </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div id="works">
+              <div id="work01"><img src="image/박윤호.png"></div>
+              <div id="work02"><img src="image/전도현.png"></div>
+              <div id="work03"><img src="image/정지연.png"></div>
+            </div>
+
+        <div id = "main3">
+            <div id="button03"><a href="#main4"><img src="image/button03.png" alt=""></a></div>
+        </div>
+        <div id = "main4">
+           <div id="imgbox"><img src = "image/프로필.jpg" alt="프로필"></div>
+           <div id="yoon"><a href="#work01"></a></div>
+           <div id="do"><a href="#work02"></a></div>
+           <div id="jung"><a href="#work03"></a></div>
+        </div>
+        
+        <div id = "footer">
+         <img src="image/foot.png">
+        </div>
+        
+        
+       
+        
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+                // 페이지네이션
+                pagination: {
+                    el: '.swiper-pagination'
+                },
+                // 네이게이션 버튼
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+            });
+
+            $("#button01").mouseover(function() {
+     $(this).attr("src", $(this).attr("src").replace("Before","After"));
+});
+$("#button01").mouseout(function() {
+     $(this).attr("src", $(this).attr("src").replace("After", "Before"));
+});
+
+
+
+        </script>
+        
+
+
+
+
+</body>
+    
+</html>
