@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
+
+img {
+    width: 100%;
+}
+
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fafafa00;
+}
+
+#header {
+    width: 100%;
+    height:70px;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    
+    
+
+    
+}
+
+#site-title {
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+    width: 110px;
+    
+    
+    
+    margin-left: 30px;
+    
+    
+    
+}
+
+#textmain {
+    
+    position: relative;
+    left: 0px;
+    top: 50px;
+    
+}
+
+#main {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+   
+    
+}
+#main2 {
+    margin-top: 10rem;
+    background-color: white ;
+    text-align: center;
+}
+
+#main3 {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+#main4 {
+    margin-top: 50rem;
+    margin-bottom: 150px;
+    
+    
+}
+
+#yoon {
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 210px;
+    top: 31015px;
+    left: 665px;
+    margin: auto;
+    
+    
+}
+
+#do {
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 210px;
+    top: 31458px;
+    left: 665px;
+    margin: auto;
+    
+    
+    
+}
+
+#jung {
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 210px;
+    top: 31901px;
+    left: 665px;
+    margin: auto;
+    
+    
+}
+
+#footer {
+    display: block;
+    margin: auto;
+    top: 0px;
+    
+
+    width: 1000px;
+    height: 20px;
+    
+}
+
+
+#button03 {
+
+   
+    width:300px;
+    height: 150px;
+    margin: auto;
+    
+}
+
+#main-left {
+    position: absolute;
+    right: 715px;
+    margin-top: 160px;
+    width: 560px;
+    height: 800px;
+    margin-right: 1rem;
+    
+
+}
+
+#main-right {
+    position: absolute;
+    top: 60px;
+    left: 330px;
+    width: 800px;
+    height: 800px;
+    
+    
+}
+
+
+#work01 {
+    margin-top: 350px;
+    width: 1200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#work02 {
+    margin-top: 350px;
+    width: 1200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#work03 {
+    margin-top: 350px;
+    width: 1200px;
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#work1 {
+    height: auto;
+}
+
+#work2 {
+    height: auto;
+}
+
+#work3 {
+    height: auto;
+}
+.swiper-container {
+    width: 1100px;
+    height: 700px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+
+.Toward {
+    
+    top: 0px;
+    width: 580px;
+    margin-top: 0px;
+    margin-left: 30px;
+    
+    
+    
+    
+}
+
+
+
+#button01 {  
+   margin-left: 120px;
+   margin-top: 100px;
+   width: 400px;
+   height: 100px;
+   
+}
+
+
+
+
+
+
+
+
+#footer {
+    margin-top: 8px;
+    
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#ui01 {
+    width: 50px;
+    position: fixed;
+    top: 40rem;
+    right: 2rem;
+}
