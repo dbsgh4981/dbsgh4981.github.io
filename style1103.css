@@ -280,4 +280,5 @@ body {
     position: fixed;
     top: 40rem;
     right: 2rem;
+    z-index: 3;
 }
